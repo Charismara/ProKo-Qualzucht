@@ -21,7 +21,7 @@ export default function Example() {
                                 <p>Eine ausgeprägte Zahnfehlstellung hat die Ursache, dass das Gebiss nicht genügend Platz für alle Zähne hat und sie deshalb schief wachsen.</p>
                                 <br/>
                                 <div className="group">
-                                    <a href={"https://svk-asmpa.ch/wp-content/uploads/kurzkoepfige-hunde.jpg"}>
+                                    <a href={"https://svk-asmpa.ch/wp-content/uploads/kurzkoepfige-hunde.jpg"} target={"_blank"} rel={"noreferrer"}>
                                         <Image src={KurzkopfHunde} alt={""} style={{objectFit: "scale-down"}} className={"mx-auto"}/>
                                         <h3 className="mt-3 text-sm text-gray-500 text-center">
                                             https://svk-asmpa.ch/wp-content/uploads/kurzkoepfige-hunde.jpg
@@ -38,7 +38,7 @@ export default function Example() {
                                    Diese Anomalie führt meist zu Zystischen Hohlräumen im Rückenmark.</p>
                                 <br/>
                                 <div className="group">
-                                    <a href={"https://www.uni-giessen.de/de/fbz/fb10/institute_klinikum/klinikum/kleintierklinik/Chirurgie/neurologie/bilder/chiari-aehnliche-malformation-abb-3"}>
+                                    <a href={"https://www.uni-giessen.de/de/fbz/fb10/institute_klinikum/klinikum/kleintierklinik/Chirurgie/neurologie/bilder/chiari-aehnliche-malformation-abb-3"} target={"_blank"} rel={"noreferrer"}>
                                         <Image src={Abbildung2} alt={""} style={{objectFit: "scale-down"}} className={"mx-auto w-1/2"}/>
                                         <h3 className="mt-3 text-sm text-gray-500 text-center">
                                             https://www.uni-giessen.de/de/fbz/fb10/institute_klinikum/klinikum/kleintierklinik/Chirurgie/neurologie/bilder/chiari-aehnliche-malformation-abb-3

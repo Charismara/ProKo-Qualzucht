@@ -60,7 +60,7 @@ export default function Example() {
                                 <p>Leider ist auch ein Symptom, dass die Hunde Inkontinent sind sowohl beim Kot als auch beim Urin.</p>
                                 <br/>
                                 <div className="group">
-                                    <a href={"https://dccdn.de/www.doccheck.com/data/dr/sv/gy/85/mb/le/7231f4cf3779e78915ab3287093343_original.jpg"}>
+                                    <a href={"https://dccdn.de/www.doccheck.com/data/dr/sv/gy/85/mb/le/7231f4cf3779e78915ab3287093343_original.jpg"} target={"_blank"} rel={"noreferrer"}>
                                         <Image src={Keil} alt={""} style={{objectFit: "scale-down"}} className={"mx-auto w-1/2"}/>
                                         <h3 className="mt-3 text-sm text-gray-500 text-center">
                                             https://dccdn.de/www.doccheck.com/data/dr/sv/gy/85/mb/le/7231f4cf3779e78915ab3287093343_original.jpg
@@ -82,7 +82,7 @@ export default function Example() {
                                 <p>Der kleine Bullterrier hat auch viel zu kurze beine welche ihm große Probleme bereiten kann, zum Beispiel eine Patellaluxation, hierbei verschiebt sich durch die zu kurzen beine häufig die Kniescheibe.</p>
                                 <br/>
                                 <div className="group">
-                                    <a href={"https://www.mini-bull-terrier.de/media/images/kranker-hund-large.jpg"}>
+                                    <a href={"https://www.mini-bull-terrier.de/media/images/kranker-hund-large.jpg"} target={"_blank"} rel={"noreferrer"}>
                                         <Image src={Bull} alt={""} style={{objectFit: "scale-down"}} className={"mx-auto w-3/4"}/>
                                         <h3 className="mt-3 text-sm text-gray-500 text-center">
                                             https://www.mini-bull-terrier.de/media/images/kranker-hund-large.jpg

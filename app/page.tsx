@@ -23,7 +23,7 @@ export default function Example() {
                         </div>
                         <div className={"w-1/2 hidden md:flex justify-center"}>
                             <div className="group">
-                                <a href={"https://www.mein-haustier.de/wp-content/uploads/2022/07/Hunde-Qualzuchten.png"}>
+                                <a href={"https://www.mein-haustier.de/wp-content/uploads/2022/07/Hunde-Qualzuchten.png"} target={"_blank"} rel={"noreferrer"}>
                                     <Image
                                         className={"lg:w-2/3 object-scale-down object-center mx-auto"}
                                         src={QualzuchtHunde} alt={"https://www.mein-haustier.de/wp-content/uploads/2022/07/Hunde-Qualzuchten.png"}
@@ -42,7 +42,7 @@ export default function Example() {
                     <div className="px-4 py-8 sm:px-0 text-xl flex">
                         <div className={"w-1/2 hidden md:flex justify-center"}>
                             <div className="group">
-                                <a href={"https://www.mein-haustier.de/wp-content/uploads/2022/07/Katzen-Qualzuchten.png"}>
+                                <a href={"https://www.mein-haustier.de/wp-content/uploads/2022/07/Katzen-Qualzuchten.png"} target={"_blank"} rel={"noreferrer"}>
                                     <Image
                                         className={"lg:w-2/3 object-scale-down object-center mx-auto"}
                                         src={QualzuchtKatzen} alt={"https://www.mein-haustier.de/wp-content/uploads/2022/07/Katzen-Qualzuchten.png"}

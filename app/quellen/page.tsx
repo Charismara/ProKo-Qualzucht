@@ -33,5 +33,5 @@ type Props = {
 }
 
 const QuellenListElement = ({link}: Props) => {
-    return (<li><a href={link} className={"hover:underline"}>{link}</a></li>)
+    return (<li><a href={link} className={"hover:underline"} target={"_blank"} rel={"noreferrer"}>{link}</a></li>)
 }
