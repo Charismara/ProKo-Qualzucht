@@ -3,15 +3,17 @@ import './globals.css'
 import {Disclosure, Menu, Transition} from "@headlessui/react";
 import {Fragment} from "react";
 import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/outline";
+import {NavItem, NavItemLink} from "components/NavItemLink";
+import {NavItemLinkMobile} from "../components/NavItemLinkMobile";
 
-const navigation = [
-    {name: 'Dashboard', href: '#', current: true},
-    {name: 'Team', href: '#', current: false},
-    {name: 'Projects', href: '#', current: false},
-    {name: 'Calendar', href: '#', current: false},
+const navigation: NavItem[] = [
+    {name: 'Qualzucht', href: '/'},
+    {name: 'Fehlbildungen', href: '/fehlbildungen'},
+    {name: 'Listenhunde', href: '/listenhunde'},
+    {name: 'Rassenliste', href: '/rassenliste'},
 ]
 
-function classNames(...classes: string[]) {
+export function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
 }
 
@@ -40,19 +42,7 @@ export default function RootLayout({children,}: { children: React.ReactNode }) {
                                     </div>
                                     <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
                                         {navigation.map((item) => (
-                                            <a
-                                                key={item.name}
-                                                href={item.href}
-                                                className={classNames(
-                                                    item.current
-                                                        ? 'border-indigo-500'
-                                                        : 'border-transparent text-gray-300 hover:border-gray-300 hover:text-gray-100',
-                                                    'inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'
-                                                )}
-                                                aria-current={item.current ? 'page' : undefined}
-                                            >
-                                                {item.name}
-                                            </a>
+                                            <NavItemLink key={item.name} item={item}/>
                                         ))}
                                     </div>
                                 </div>
@@ -89,20 +79,7 @@ export default function RootLayout({children,}: { children: React.ReactNode }) {
                         <Disclosure.Panel className="sm:hidden">
                             <div className="space-y-1 pt-2 pb-3">
                                 {navigation.map((item) => (
-                                    <Disclosure.Button
-                                        key={item.name}
-                                        as="a"
-                                        href={item.href}
-                                        className={classNames(
-                                            item.current
-                                                ? 'bg-indigo-50 border-indigo-500 text-indigo-700'
-                                                : 'border-transparent text-gray-600 hover:bg-gray-50 hover:border-slate-300 hover:text-gray-800',
-                                            'block pl-3 pr-4 py-2 border-l-4 text-base font-medium'
-                                        )}
-                                        aria-current={item.current ? 'page' : undefined}
-                                    >
-                                        {item.name}
-                                    </Disclosure.Button>
+                                    <NavItemLinkMobile key={item.name} item={item}/>
                                 ))}
                             </div>
                         </Disclosure.Panel>

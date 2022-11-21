@@ -9,7 +9,7 @@ export default function Example() {
         <>
             <header>
                 <div className="px-4 sm:px-6 lg:px-8 text-center">
-                    <h1 className="text-7xl font-bold leading-tight tracking-tight">Das Problem Qualzucht</h1>
+                    <h1 className="text-7xl font-bold leading-tight tracking-tight">Qualzucht – Der Körperbau, die Fehlstellungen</h1>
                 </div>
             </header>
             <main className={"mt-8"}>
