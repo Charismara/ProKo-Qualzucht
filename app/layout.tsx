@@ -10,6 +10,7 @@ const navigation: NavItem[] = [
     {name: 'Qualzucht', href: '/'},
     {name: 'Fehlbildungen', href: '/fehlbildungen'},
     {name: 'Listenhunde', href: '/listenhunde'},
+    {name: 'Trendfarben', href: '/trendfarben'},
     {name: 'Rassenliste', href: '/rassenliste'},
     {name: 'Quellen', href: '/quellen'},
 ]
