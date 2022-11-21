@@ -1,6 +1,6 @@
 'use client'
-import {classNames} from "app/layout";
 import {useEffect, useState} from "react";
+import {classNames} from "src/Utils";
 
 export type NavItem = {
     name: string,

@@ -1,5 +1,5 @@
 'use client'
-import {classNames} from "app/layout";
+import {classNames} from "src/Utils";
 import {Disclosure} from "@headlessui/react";
 import {NavItem} from "./NavItemLink";
 import {useEffect, useState} from "react";

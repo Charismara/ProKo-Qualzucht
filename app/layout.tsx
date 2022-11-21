@@ -4,7 +4,7 @@ import {Disclosure, Menu, Transition} from "@headlessui/react";
 import {Fragment} from "react";
 import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/outline";
 import {NavItem, NavItemLink} from "components/NavItemLink";
-import {NavItemLinkMobile} from "../components/NavItemLinkMobile";
+import {NavItemLinkMobile} from "components/NavItemLinkMobile";
 
 const navigation: NavItem[] = [
     {name: 'Qualzucht', href: '/'},
@@ -14,10 +14,6 @@ const navigation: NavItem[] = [
     {name: 'Rassenliste', href: '/rassenliste'},
     {name: 'Quellen', href: '/quellen'},
 ]
-
-export function classNames(...classes: string[]) {
-    return classes.filter(Boolean).join(' ')
-}
 
 export default function RootLayout({children,}: { children: React.ReactNode }) {
     return (
