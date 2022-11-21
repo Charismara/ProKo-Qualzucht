@@ -22,8 +22,8 @@ export const NavItemLinkMobile = ({item}: Props) => {
             href={item.href}
             className={classNames(
                 isCurrent
-                    ? 'bg-indigo-50 border-indigo-500 text-indigo-700'
-                    : 'border-transparent text-gray-600 hover:bg-gray-50 hover:border-slate-300 hover:text-gray-800',
+                    ? 'bg-gray-700 border-indigo-500 text-white'
+                    : 'border-transparent text-gray-600 hover:bg-gray-800 hover:border-gray-300 hover:text-gray-100',
                 'block pl-3 pr-4 py-2 border-l-4 text-base font-medium'
             )}
             aria-current={isCurrent ? 'page' : undefined}

@@ -11,6 +11,7 @@ const navigation: NavItem[] = [
     {name: 'Fehlbildungen', href: '/fehlbildungen'},
     {name: 'Listenhunde', href: '/listenhunde'},
     {name: 'Rassenliste', href: '/rassenliste'},
+    {name: 'Quellen', href: '/quellen'},
 ]
 
 export function classNames(...classes: string[]) {
@@ -64,7 +65,7 @@ export default function RootLayout({children,}: { children: React.ReactNode }) {
                                 <div className="-mr-2 flex items-center sm:hidden">
                                     {/* Mobile menu button */}
                                     <Disclosure.Button
-                                        className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                                        className="inline-flex items-center justify-center rounded-md p-2 text-gray-500 hover:text-gray-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                                         <span className="sr-only">Open main menu</span>
                                         {open ? (
                                             <XMarkIcon className="block h-6 w-6" aria-hidden="true"/>

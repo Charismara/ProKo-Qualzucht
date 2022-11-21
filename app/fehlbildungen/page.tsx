@@ -1,99 +1,104 @@
 'use client'
 
+import KurzkopfHunde from 'public/kurzkoepfige-hunde.jpg';
+import Abbildung2 from 'public/chiari-aehnliche-malformation-abb-3.png';
 import Image from "next/image";
-import QualzuchtHunde from 'public/Hunde-Qualzuchten.png'
-import QualzuchtKatzen from 'public/Katzen-Qualzuchten.png'
 
 export default function Example() {
     return (
         <>
-            <header>
-                <div className="px-4 sm:px-6 lg:px-8 text-center">
-                    <h1 className="text-7xl font-bold leading-tight tracking-tight">Qualzucht – Der Körperbau, die Fehlstellungen</h1>
-                </div>
-            </header>
-            <main className={"mt-8"}>
-                <div className="sm:px-6 lg:px-8">
-                    <div className="px-4 py-8 sm:px-0 text-xl flex">
-                        <div className={"w-full md:w-1/2 pr-4"}>
-                            <p className={"mb-4"}>Qualzucht ist ein weit verbreitetes Wort, dieses Wort definiert die Zucht von Tieren, die mit Fehlbildungen und anderen Gesundheitlichen Schäden und Schmerzen aus wirtschaftlichen Gründen in
-                                                  Kauf genommen werden.</p>
-                            <p className={"mb-4"}>Jedoch gibt es auch Rassen die absichtlich so gezüchtet werden, weil die Menschen dieses aussehen „Hübsch“ finden und die Tiere müssen dann darunter leiden.</p>
-                            <p>Die Elterntiere werden nach genauen Maßgaben herausgesucht und zur Zucht verwendet. Ihre Nachkommen haben dann meistens die gewünschten Merkmale.</p>
-                        </div>
-                        <div className={"w-1/2 hidden md:flex justify-center"}>
-                            <div className="group">
-                                <a href={"https://www.mein-haustier.de/wp-content/uploads/2022/07/Hunde-Qualzuchten.png"}>
-                                    <Image
-                                        className={"lg:w-2/3 object-scale-down object-center mx-auto"}
-                                        src={QualzuchtHunde} alt={"https://www.mein-haustier.de/wp-content/uploads/2022/07/Hunde-Qualzuchten.png"}
-                                        style={{objectFit: "scale-down"}}
-                                    />
-                                    <h3 className="mt-3 text-sm text-gray-500 text-center">
-                                        https://www.mein-haustier.de/wp-content/uploads/2022/07/Hunde-Qualzuchten.png
-                                    </h3>
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div className="sm:px-6 lg:px-8">
-                    <div className="px-4 py-8 sm:px-0 text-xl flex">
-                        <div className={"w-1/2 hidden md:flex justify-center"}>
-                            <div className="group">
-                                <a href={"https://www.mein-haustier.de/wp-content/uploads/2022/07/Katzen-Qualzuchten.png"}>
-                                    <Image
-                                        className={"lg:w-2/3 object-scale-down object-center mx-auto"}
-                                        src={QualzuchtKatzen} alt={"https://www.mein-haustier.de/wp-content/uploads/2022/07/Katzen-Qualzuchten.png"}
-                                        style={{objectFit: "scale-down"}}
-                                    />
-                                    <h3 className="mt-3 text-sm text-gray-500 text-center">
-                                        https://www.mein-haustier.de/wp-content/uploads/2022/07/Katzen-Qualzuchten.png
-                                    </h3>
-                                </a>
-                            </div>
-                        </div>
-                        <div className={"w-full md:w-1/2 pl-4"}>
-                            <p className={"mb-4"}>Qualzucht bezieht sich nicht nur auf Hunde, sondern auch auf Katzen und Kleintiere.</p>
-                            <p className={"mb-4"}>Eigentlich alles was der Mensch züchten kann, es gibt unzählige Tierarten und Rassen mit gezüchteter Fehlbildung oder sonstige Qualzuchten, denn der Mensch formt sich das Tier so, wie es ihm
-                                                  gefällt.</p>
-                            <p className={"mb-4"}>Sei es Groß oder Klein, Große Ohren oder hängende Ohren. Plattes Gesicht oder gar ein komplett Nacktes Tier. </p>
-                            <p>Jedes Tier welches verzüchtet wird hat seine vielen kleinen oder großen Leiden die ihnen viele Probleme bereiten.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className={"w-full border-t-8 border-gray-900"}/>
+            <main>
                 <div className="mx-auto max-w-7xl py-8 px-4 sm:py-8 sm:px-6 lg:px-8">
                     <div className="text-center">
                         <p className="mt-1 text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-                            Welche Ursachen können Qualzuchten haben?
+                            Körper Fehlstellungen - Kopf
                         </p>
-                        <p className="mx-auto mt-8 max-w-4xl text-xl">
-                            Es fehlen zum Beispiel das Wissen vor dem Kauf, wenn die Menschen das Tier sehen und denken „Ach ist der niedlich“ heißt das nicht, dass sie auch wissen welche Probleme dieses niedliche aussehen mit sich
-                            bringt.
-                            Zudem ist es bei vielen Rassen nicht verboten sie so zu züchten, weil einfach die richtigen Gesetze fehlen, meistens sind die vorhandenen Gesetze nicht eindeutig genug, so können Züchter willkürlich ihre
-                            Qualzuchten
-                            vermehren.
-                            Und weil sie züchten können wie sie wollen, richten sich natürlich die Züchter nach der Art Rasse, die besonders viel Geld bringt und eine sehr hohe Nachfrage hat, denn die Welt Modernisiert Rassen mit
-                            Fehlbildungen, weil sie diese „Süß“ finden und fast jeder prominente so eine Rasse hat.
-                            Eine nicht ganz so schöne Art zu Züchten ist auch Inzest unter den Tieren, wenn die Züchter die Tiere dazu zwingen.
-                        </p>
+                        <div className="mx-auto mt-8 max-w-4xl text-xl">
+                            <div className={"text-2xl w-full"}>Ein Stark verkürzter Gesichtsschädel dies führt zu einigen Problemen zum Beispiel:</div>
+                            <div className={"mt-8"}>
+                                <p>Durch die Oberkieferverkürzung, kann das Gebiss nicht richtig schließen, wodurch die Zunge raushängen kann und so meist teile der Zunge absterben.</p>
+                                <br/>
+                                <p>Eine ausgeprägte Zahnfehlstellung hat die Ursache, dass das Gebiss nicht genügend Platz für alle Zähne hat und sie deshalb schief wachsen.</p>
+                                <br/>
+                                <div className="group">
+                                    <a href={"https://svk-asmpa.ch/wp-content/uploads/kurzkoepfige-hunde.jpg"}>
+                                        <Image src={KurzkopfHunde} alt={""} style={{objectFit: "scale-down"}} className={"mx-auto"}/>
+                                        <h3 className="mt-3 text-sm text-gray-500 text-center">
+                                            https://svk-asmpa.ch/wp-content/uploads/kurzkoepfige-hunde.jpg
+                                        </h3>
+                                    </a>
+                                </div>
+                                <br/>
+                                <p>Ein Krankhaft verformter Schädel, welches so aussehen kann, der Hund hat große, runde Augen und eine Runde, vorgewölbte Stirn mit weit auseinanderstehenden Augenhöhlen. Dies kann großen Druck in der
+                                   Stirnhöhle
+                                   verursachen. der Druck im Kopf kann auch zu Kopfschmerzen führen welches dem Tier viel Leid zufügt.</p>
+                                <br/>
+                                <p>Ebenfalls durch den viel zu kleinen Kopf, gibt es Rassen bei denen das Kleinhirn in den Wirbelkanal vorgewölbt ist, dies kann sich durch unstillbare kratz Attacken im Hals- und Schulterbereich erkenntlich
+                                   zeigen.
+                                   Diese Anomalie führt meist zu Zystischen Hohlräumen im Rückenmark.</p>
+                                <br/>
+                                <div className="group">
+                                    <a href={"https://www.uni-giessen.de/de/fbz/fb10/institute_klinikum/klinikum/kleintierklinik/Chirurgie/neurologie/bilder/chiari-aehnliche-malformation-abb-3"}>
+                                        <Image src={Abbildung2} alt={""} style={{objectFit: "scale-down"}} className={"mx-auto w-1/2"}/>
+                                        <h3 className="mt-3 text-sm text-gray-500 text-center">
+                                            https://www.uni-giessen.de/de/fbz/fb10/institute_klinikum/klinikum/kleintierklinik/Chirurgie/neurologie/bilder/chiari-aehnliche-malformation-abb-3
+                                        </h3>
+                                    </a>
+                                </div>
+                                <br/>
+                                <p>Viel zu Flache Augenhöhlen, auch „Exophthalmus“ genannt, kann bei Druck auf den Kopf die Augen aus der Augenhöhle drücken.</p>
+                                <br/>
+                                <p>Extrem Verkürzte Nase, das führt zu viel zu engen Nasenlöchern- und Gänge und einen viel zu weichen Gaumen. Das Atmen ist bei diesen Tieren sehr erschwert.</p>
+                                <br/>
+                                <p>Wegen der kurzen Nase sind auch die Gaumensegel verlängert und die Atemwege sind deutlich eingeengt. Meistens benötigen diese Hunde dann eine Gaumensegel Operation, weil ihnen selbst im Ruhezustand das
+                                   Atmen
+                                   schwerfällt. Da diese Hunde schwer atmen können, beeinflusst dies dann auch die Temperatur Regulierung. Bei Bewegung oder warmen Temperaturen können diese Hunde ihre Körpertemperatur nicht mehr durch
+                                   Hecheln
+                                   regulieren und sie leiden dadurch häufig an Sauerstoffmangel.</p>
+                                <br/>
+                                <p>Auch das Auswärtsrollen des unteren Augenlidrandes, diese Hunde können ihre Augen nicht richtig schließen und leiden meist unter Tränenfluss und der Bindehautentzündungen.</p>
+                                <br/>
+                                <p>Viele Hunde leiden durch die Zucht auch an großen Falten im Gesicht oder anderen Körperstellen. Zwischen den Falten ist es eigentlich immer sehr warm und meistens dann auch feucht durch schweiß. Noch ein
+                                   Problem ist die Reibung, bei jeder Bewegung reiben die Hautfalten aneinander und dies kann die haut auch reizen. Diese Falten bieten dann einen perfekten Nährboden für Keime und Pilzen. Was dann natürlich
+                                   auch zu Entzündungen führen kann, welche sehr schmerzhaft sein können.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="mx-auto max-w-7xl py-8 px-4 sm:py-8 sm:px-6 lg:px-8">
                     <div className="text-center">
                         <p className="mt-1 text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-                            Was kann man gegen Qualzuchten machen? „ADOPT DON’T SHOP“
+                            Körper Fehlstellungen - Oberkörper
                         </p>
-                        <p className="mx-auto mt-8 max-w-4xl text-xl">
-                            Das Tierschutzgesetz sollte verschärft werden, Bei Schäferhunden ist das Züchten mit Hüftdysplasie ist bis zu einem gewissen grad erlaubt, weil der Tierschutzbund denkt, dass diese Krankheit schon zu sehr zur
-                            Rasse gehört und sehr häufig auftritt. Man sollte den Hype für kranke Tiere unterdrücken und die Menschen nicht mit Aufmerksamkeit belohnen, weil sie sich eine Qual Zucht vom Züchter geholt haben welches diese
-                            Qualzuchten noch beliebter macht und immer mehr Züchter Geld scheffeln wollen und nicht darauf achten was sie züchten.
-                            Lieber in einem Tierheim Adoptieren. Auch diese Tiere haben es verdient ein zuhause zu finden und geliebt zu werden.
-                            Unterstützt keine Züchter die solche armen Tiere züchten. Je weniger Qualzuchten gekauft werden, desto weniger werden gezüchtet. Macht die Welt aufmerksam darauf wie sehr solche Tiere leiden müssen, weil die
-                            Menschen sie „Süß“ finden, wie viele Tiere an ihren erb Erkrankungen sterben und leiden. Also bleiben wir bei unserem Motto „ADOPT AND DON’T SHOP“
+                        <div className="mx-auto mt-8 max-w-4xl text-xl">
+                            <div className={"mt-8"}>
+                                <p>Hüftgelenksdysplasie ist eine genetisch bedingte Fehlbildung der Hüftgelenke. Die Hüftgelenke wachsen nicht richtig und sind unnatürlich verformt.</p>
+                                <br/>
+                                <p>Der Stark abfallende Rücken, meist vom Deutschen Schäferhund, dieser wurde „Schön“ gezüchtet. Je älter der Hund, desto schlechter können diese Hunde Laufen.</p>
+                                <br/>
+                                <p>Bei Coxarthrosen (Hüftarthrose) haben die Hunde Probleme mit der Hüfte und meistens auch Lahmheit also Probleme beim Laufen.</p>
+                                <br/>
+                                <p>Chondrodysplasie ist eine genetisch bedingte Störung der Knochen und Knorpel, dies kann zu einem Bandscheibenvorfall führen was dann auch wieder Probleme bereitet. Häufig auftretende Bandscheibenvorfälle
+                                   durch sehr langen rücken sind aber auch möglich.</p>
+                                <br/>
+                                <p>Der Ridge hat das Problem, Haut und Rücken werden embryonal nur unvollkommen oder gar nicht voneinander getrennt. Dies führt häufig zu Zysten am Rücken, diese Zysten können sich entzünden und zu einer
+                                   Hirnhautentzündung führen.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="mx-auto max-w-7xl py-8 px-4 sm:py-8 sm:px-6 lg:px-8">
+                    <div className="text-center">
+                        <p className="mt-1 text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+                            Körper Fehlstellungen - Beine
                         </p>
+                        <div className="mx-auto mt-8 max-w-4xl text-xl">
+                            <div className={"mt-8"}>
+                                <p>Patella-Luxation heißt, dass wegen zu kurzer beine die Kniescheibe sehr häufig rausspringt.</p>
+                                <br/>
+                                <p>Manche Hunde haben Verkürzte Beine, und auch Fehlstellung durch Zucht an den Beinen, diese müssen dann meisten Operativ gerichtet werden.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </main>
