@@ -135,6 +135,9 @@ export default function RootLayout({children,}: { children: React.ReactNode }) {
                                 <item.icon className="h-6 w-6" aria-hidden="true"/>
                             </a>
                         ))}
+                        <a href={"https://www.tierheim-karlsruhe.de/impressum/"} className={"text-gray-400 hover:text-gray-500"} target={"_blank"} rel={"noreferrer"}>
+                            <span>Impressum</span>
+                        </a>
                     </div>
                     <div className="mt-8 md:order-1 md:mt-0">
                         <p className="text-center text-base text-gray-400">Erstellt für ProKo 2023 <strong>Adopt don&apos;t shop!</strong></p>
