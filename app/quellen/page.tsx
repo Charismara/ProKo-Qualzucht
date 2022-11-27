@@ -21,6 +21,9 @@ export default function Example() {
                     <QuellenListElement link={"https://www.gesunde-bulldoggen.de/laufen/keilwirbel.html"}/>
                     <QuellenListElement link={"https://de.wikipedia.org/wiki/Keilwirbel "}/>
                     <QuellenListElement link={"https://www.tiho-hannover.de/kliniken-institute/institute/institut-fuer-tierzucht-und-vererbungsforschung/forschung/forschungsprojekte-hund/keilwirbel "}/>
+                    <QuellenListElement link={"https://www.diehundezeitung.com/von-weiss-zu-blau-genetik-der-fellfarben-beim-hund/"}/>
+                    <QuellenListElement link={"https://www.tieraerztekammer-berlin.de/qualzucht/72-qualzucht/2256-fellfarben-und- genmutation-ein-kurzer-ueberblick.html"}/>
+                    <QuellenListElement link={"https://www.veto-tierschutz.de/magazin/katzen-ratgeber/qualzucht-katzen-rassen-merkmale/"}/>
                     <li>Eigenes Wissen</li>
                 </ul>
             </main>

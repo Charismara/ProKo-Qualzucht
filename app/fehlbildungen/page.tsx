@@ -61,6 +61,10 @@ export default function Example() {
                                 <p>Viele Hunde leiden durch die Zucht auch an großen Falten im Gesicht oder anderen Körperstellen. Zwischen den Falten ist es eigentlich immer sehr warm und meistens dann auch feucht durch schweiß. Noch ein
                                    Problem ist die Reibung, bei jeder Bewegung reiben die Hautfalten aneinander und dies kann die haut auch reizen. Diese Falten bieten dann einen perfekten Nährboden für Keime und Pilzen. Was dann natürlich
                                    auch zu Entzündungen führen kann, welche sehr schmerzhaft sein können.</p>
+                                <br/>
+                                <p>Bei vielen Katzen und Kaninchen oder gar bei hunden gibt es auch oftmals verkürzte Ohren. Bei der Katze gibt es zum beispiel die Faltohren, hier ist die Ohrmuschel nach vorne oder nach hinten abgeknickt.
+                                   Beim kaninchen gibt es die hängeohren, die oftmals das problem bieten, dass die ohren regelmäßig gesäubert werden müssen.</p>
+                                <br/>
                             </div>
                         </div>
                     </div>
@@ -83,6 +87,10 @@ export default function Example() {
                                 <br/>
                                 <p>Der Ridge hat das Problem, Haut und Rücken werden embryonal nur unvollkommen oder gar nicht voneinander getrennt. Dies führt häufig zu Zysten am Rücken, diese Zysten können sich entzünden und zu einer
                                    Hirnhautentzündung führen.</p>
+                                <br/>
+                                <p>Es gibt einige Rassen, die unter eine Kurzschwänzigkeit und oder sogar einer Schwanzlosigkeit leiden, dies kann zu diversen problemen führen, da katzen zum beispiel durch den Schwanz ihre balance
+                                   ausgleicht. </p>
+
                             </div>
                         </div>
                     </div>
@@ -97,6 +105,12 @@ export default function Example() {
                                 <p>Patella-Luxation heißt, dass wegen zu kurzer beine die Kniescheibe sehr häufig rausspringt.</p>
                                 <br/>
                                 <p>Manche Hunde haben Verkürzte Beine, und auch Fehlstellung durch Zucht an den Beinen, diese müssen dann meisten Operativ gerichtet werden.</p>
+                                <br/>
+                                <p>Es gibt auch Hunde mit fehlstellungen in den beinen, die sogenannten X-Beine, hier sind die beine so verformt, dass die beine ein X bilden also nach innen verbogen. Diese Fehlstellung muss operiert werden
+                                   um die ungeraden beine zu richten. Dies ist meist eine schmerzhafte OP, da die Hunde im nachhinein sich auch nicht wirklich viel bewegen dürfen.</p>
+                                <br/>
+                                <p>Es gibt noch deutlich mehr fehlbildungen jedoch die alle aufzuzählen kann sehr lange dauern, Informiert euch bitte einfach wenn ihr euch einen Hund zulegt ob dieser in seinem leben dann lange leiden
+                                   muss.</p>
                             </div>
                         </div>
                     </div>

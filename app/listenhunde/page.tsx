@@ -25,6 +25,11 @@ export default function Example() {
                                 <p>Große XL-XXL Hunde sind auch körperlich nicht wirklich belastbar wie kleinere Hunde da diese nicht so
                                    schwere Knochen und Muskelmasse mit sich schleppen müssen.</p>
                                 <br/>
+                                <p>Für Viele Menschen ist ein Hund schön je größer er ist, über die Körperlichen leiden machen sich die Menschen keine Gedanken. Es werden total zufällige Hunderassen untergezüchtet alleine nur für die
+                                   Farbgebung. Es wird weder auf Charakter geachtet noch auf Verhaltens Auffälligkeiten. Sie suchen sich Hunde raus ohne auf aggressive Tendenzen zu achten und dies nur weil der Hund ein niedliches Gesicht
+                                   hat, dass Problem an dieser Art der Züchtung ist dann, verhalten kann vererbt werde. Die Triebe der Tiere werden noch stärker gezüchtet für Hundesportarten oder weil die Menschen es als lustig empfinden
+                                   und dies in Social Media Posten möchten. Die Toleranz und Impulskontrolle sind bei vielen kaum bis nicht vorhanden.</p>
+                                <br/>
                                 <p>Für Viele Menschen ist ein Hund schön je größer er ist, über die Körperlichen leiden machen sich die Menschen keine Gedanken.</p>
                                 <br/>
                                 <div className="group">
@@ -37,8 +42,12 @@ export default function Example() {
                                     American Bully XL
                                 </p>
                                 <br/>
-                                <p>Man sieht häufig <span className={"font-bold"}>American Bully XL</span> Hunde, sie sehen aus wie Body-Builder Hunde und als könnten sie dich jeden Moment fertig machen. Doch diese Hunde sehen meistens nur
+                                <p>Man sieht häufig <span className={"font-bold"}>American Bully XL</span> Hunde, sie sehen aus wie Body-Builder Hunde und als könnten sie dich jeden Moment fertig machen. Doch diese Hunde sehen meistens
+                                   nur
                                    so aus, weil sie so gezüchtet wurden.</p>
+                                <br/>
+                                <p>Der American Bully ist ein Hybridhund, man weiß seine eigentliche Abstammungsrasse nicht wirklich, zu mindestens ist es bis heute noch unklar. Wir schätzen mal dass auf jedenfall Staffordshire Terrier und
+                                   Pitbull mit drin war bis alle anderen Rassen willkürlich dazu gezüchtet wurden.</p>
                                 <br/>
                                 <p>Meistens sind sie sehr liebe Tiere, jedoch leidet diese Rasse häufig an Allergien welche auch häufig zu Fell Problemen führen oder sehr häufig zu Augenentzündungen.</p>
                                 <br/>
@@ -76,10 +85,12 @@ export default function Example() {
                                     Miniatur Bullterrier
                                 </p>
                                 <br/>
-                                <p>Der Miniatur Bullterrier leidet auch unter vielen Rassendispositionen für viele Erbkrankheiten ein großes Thema welches nicht zu übersehen ist, ist das Gesicht vom Bullterrier, sowohl beim normal großen
+                                <p>Der Miniatur Bullterrier leidet auch unter vielen Rassendispositionen für viele Erbkrankheiten ein großes Thema welches nicht zu übersehen ist, ist das Gesicht vom Bullterrier, sowohl beim normal
+                                   großen
                                    und beim Mini.</p>
                                 <br/>
-                                <p>Der kleine Bullterrier hat auch viel zu kurze beine welche ihm große Probleme bereiten kann, zum Beispiel eine Patellaluxation, hierbei verschiebt sich durch die zu kurzen beine häufig die Kniescheibe.</p>
+                                <p>Der kleine Bullterrier hat auch viel zu kurze beine welche ihm große Probleme bereiten kann, zum Beispiel eine Patellaluxation, hierbei verschiebt sich durch die zu kurzen beine häufig die
+                                   Kniescheibe.</p>
                                 <br/>
                                 <div className="group">
                                     <a href={"https://www.mini-bull-terrier.de/media/images/kranker-hund-large.jpg"} target={"_blank"} rel={"noreferrer"}>
@@ -90,12 +101,16 @@ export default function Example() {
                                     </a>
                                 </div>
                                 <br/>
-                                <p>Dazu leidet diese Rasse auch unter der Primären Linsenluxation, diese Krankheit kann zur Erblindung führen und ist sehr schmerzhaft. Bei dieser Erkrankung reißen die Zonulafasern nach und nach, die Linse
-                                   löst sich aus ihrer Position und „Schwimmt“ frei im Auge herum. Bei dieser Krankheit tränt das Auge sehr häufig und der Hund kneift häufig die Augen zu. Wenn man genauer hinsieht, kann man auch sehen, dass
+                                <p>Dazu leidet diese Rasse auch unter der Primären Linsenluxation, diese Krankheit kann zur Erblindung führen und ist sehr schmerzhaft. Bei dieser Erkrankung reißen die Zonulafasern nach und nach, die
+                                   Linse
+                                   löst sich aus ihrer Position und „Schwimmt“ frei im Auge herum. Bei dieser Krankheit tränt das Auge sehr häufig und der Hund kneift häufig die Augen zu. Wenn man genauer hinsieht, kann man auch sehen,
+                                   dass
                                    die Hornhaut des Auges leicht getrübt erscheint.</p>
                                 <br/>
-                                <p>Ebenso kann ein Bullterrier an einer Aortenstenose erkranken. Hier ist die Hauptschlagader in der linken Herzhälfte verengt und damit muss das Herz mehr pumpen, um die Verengung zu überwinden. Durch das
-                                   ständige Pumpen vergrößern sich die Muskelzellen und dadurch nimmt der Durchmesser in der Herzkammer ab. Deswegen kommt es zu einer Herzrhythmusstörung. Der Bullterrier ist dann schlechter belastbar und
+                                <p>Ebenso kann ein Bullterrier an einer Aortenstenose erkranken. Hier ist die Hauptschlagader in der linken Herzhälfte verengt und damit muss das Herz mehr pumpen, um die Verengung zu überwinden. Durch
+                                   das
+                                   ständige Pumpen vergrößern sich die Muskelzellen und dadurch nimmt der Durchmesser in der Herzkammer ab. Deswegen kommt es zu einer Herzrhythmusstörung. Der Bullterrier ist dann schlechter belastbar
+                                   und
                                    bei hoher Belastung wird der Hund ohnmächtig. Atemnot ist auch häufig ein Symptom.</p>
                                 <br/>
                                 <p>Dieser Hund hat ebenso in seiner Rasse die Erbkrankheit der Taubheit. Dies passiert, wenn Anteile des Innenohrs Degenerieren. Aber bei dieser Krankheit kann der Hund trotzdem ein erfülltes Leben
@@ -104,7 +119,8 @@ export default function Example() {
                                 <p>Auch Bullterrier haben viele Allergien die sie plagen. Meistens leiden aber die Weißen Bullterrier mehr unter Beschwerden als andere dieser Rasse, da diese einen Gendefekt haben denn weiß ist keine
                                    natürliche fellgebung bei Hunden. Häufig leiden diese Hunde dann unter Juckreiz, Ohrenentzündungen und sehr oft Durchfall.</p>
                                 <br/>
-                                <p>Leider haben Bullterrier auch Rassebedingt oft Zwischenzehenzysten diese schmerzen und jucken sehr oft weshalb sie sich die kleinen Bläschen einfach aufbeißen und so die Wunden sich entzünden und noch mehr
+                                <p>Leider haben Bullterrier auch Rassebedingt oft Zwischenzehenzysten diese schmerzen und jucken sehr oft weshalb sie sich die kleinen Bläschen einfach aufbeißen und so die Wunden sich entzünden und noch
+                                   mehr
                                    schmerzen und jucken.</p>
                                 <br/>
                                 <div className={"w-full border-t-4 border-gray-900"}/>
@@ -117,7 +133,8 @@ export default function Example() {
                                    gezüchtet, weil sie „Süß“ sind aber niemand achtet meist auf die Verhaltens Auffälligkeiten die bei vielen Listenhunden Vorhanden sind oder die ganzen Erbkrankheiten die in diesen Züchtungen schon
                                    vorhanden sind. Viele Erbkrankheiten sind auch da, weil die meisten Hunde wie American Bully aus der Inzest Zucht entstanden sind und hier immer dieselben gendefekte weitervererbt werden.</p>
                                 <br/>
-                                <p>Qualzuchten sollten nicht unterstützt werden. Solche Züchter sollten generell nicht unterstützt werden also lieber Adoptieren statt Züchter zu unterstützen. Dann geht die Nachfrage runter und die Züchter
+                                <p>Qualzuchten sollten nicht unterstützt werden. Solche Züchter sollten generell nicht unterstützt werden also lieber Adoptieren statt Züchter zu unterstützen. Dann geht die Nachfrage runter und die
+                                   Züchter
                                    achten vielleicht mehr auf die Lebensqualität der gezüchteten Hunde. </p>
 
 
